@@ -1,0 +1,60 @@
+Online Banking System Project Definition Document (PDD)
+The Project Definition Document (PDD) provides the overall definition, rationale and scope of the project, as well as the milestones and project deliverables.
+
+General Information
+Project ID:
+Online Banking System			 
+Project/Effort Name:	Online Banking system		
+Status (Draft/Final):	FINAL	Version #:	1.0
+Date Created:	06-08-2019	Date Last Modified:	 
+	 		
+
+Project Purpose
+The Problem of	Online banking system needs to support  -
+•	Customer profiling and account maintenance
+•	Fund transfer
+•	Online statements
+Affects	Bank customers 
+Bank User
+The impact of which is	Increased customer satisfaction  
+A successful solution would	Provide an advanced, user friendly product that can be offered to customers and users
+	
+Scope Statement
+Online banking system should be able to perform the following functionalities - 
+•	Bank activities:  
+o	Providing a platform for bank Users 
+	To register, modify, delete profile of all the eligible customers
+	Add and close multiple accounts for a customers
+•	Customer Activities: 
+o	Proivide a platform for customers to login to the internet banking site.
+o	Cutomers should be able to transfer funds with the same accounts and to any other customer within the same bank
+o	Customer should be able to generate multiple statements (within a date range/last 10 transactions etc) for all accounts
+
+
+
+Guidelines	
+•	A minimum of $5,000 should be maintained in all accounts
+•	Fund transfers above $10,000 in a day to be flaged and reported
+•	If a customer is inactive for 3 minutes then redirect him/her to login page
+•	Paging should be provided while displaying data
+•	All date fields should be in the format – ‘MM/DD/YYYY’
+
+
+
+Major Project Deliverables
+Describe the primary components required to achieve project success. Components may include systems, products, processes and services that are to be delivered as part of the project such as:
+
+ 
+•	Functional Specification Document
+•	Technical Design Specification
+•	Implementation Plan
+•	Functional Demo of bank activities and prototype for Customer activities
+
+
+Expectations
+Expected Project deliverables
+Functional specification document
+Technical design document
+Functional Demo
+
+
