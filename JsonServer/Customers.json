@@ -1,0 +1,100 @@
+{
+  "customers": [
+    {
+      "name": "NewCustomer001",
+      "email": "newcustomer001@email.com",
+      "tel": "0000252525",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Customer002",
+      "email": "customer002@email.com",
+      "tel": "0527252525"
+    },
+    {
+      "id": 3,
+      "name": "Customer003",
+      "email": "customer003@email.com",
+      "tel": "0528252525"
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 4
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 5
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 6
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 7
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 8
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 9
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 10
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 11
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 12
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 13
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 14
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 15
+    },
+    {
+      "name": "Customer004",
+      "email": "customer004@email.com",
+      "tel": "0000252525",
+      "id": 16
+    }
+  ]
+}
