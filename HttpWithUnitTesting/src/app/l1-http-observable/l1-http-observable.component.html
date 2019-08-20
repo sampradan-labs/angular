@@ -1,0 +1,19 @@
+<button (click)="PostCall()">Add New</button>
+<button (click)="PutCall()">Update</button>
+<button (click)="DeleteCall()">Delete</button>
+<br/>
+<span class= "error" *ngIf="status != 'Error';else errorTemplate">
+{{status}}
+</span>
+<ng-template  #errorTemplate>
+  <span class="success">{{status}}</span>
+</ng-template>
+
+<hr>
+<ul *ngIf="posts as posts else empty">
+  <li *ngFor="let post of posts">
+    {{post.userId}} | {{post.title}}
+  </li> 
+</ul>
+<ng-template #empty> No Posts Yet </ng-template>
+
