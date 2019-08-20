@@ -1,0 +1,8 @@
+<h1>Communicator Component</h1>
+<p>
+  {{notification}}
+  <input #box type="text" [(ngModel)]="getBinding"/>
+    <button (click)="update.emit({text: getBinding})">Update</button>
+
+    <!-- {text: notification} will be available in $event -->
+</p>

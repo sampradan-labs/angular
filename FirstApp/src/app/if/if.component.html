@@ -1,0 +1,13 @@
+<button (click)="show = !show">{{show ? 'hide' : 'show'}}</button>
+show = {{show}}
+<br>
+<div *ngIf="show==true">Text to show</div>
+<hr/>
+<div *ngIf="isLoggedIn; else loggedOut">
+    Welcome back, friend.
+  </div>
+  
+  <ng-template #loggedOut>
+    Please friend, login.
+  </ng-template>
+

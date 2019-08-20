@@ -1,0 +1,9 @@
+
+    <form novalidate #f="ngForm">
+<input type="text" name="txtForForm" [(ngModel)]="sampleProp"/>
+    
+
+      <input #iBox type='text' name='iBoxName' [(ngModel)]='sampleProp' />    
+    <button (click)='onBtnClick($event, iBox.value)' (mouseover)='changeColor(iBox, Ibox2)'>Click Me!</button>
+    {{f.value | json | uppercase}}
+</form>

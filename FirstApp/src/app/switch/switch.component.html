@@ -1,0 +1,12 @@
+<h1>The ngSwitch component</h1>
+<!-- switch(person){
+  case 'Mohan':
+  case 'Sohan':
+} -->
+<input type="text" [(ngModel)]='person'/>
+<ul [ngSwitch]="person">
+  <li *ngSwitchCase="'Mohan'">Hello Mohan</li>
+  <li *ngSwitchCase="'Sohan'">Hello Sohan</li>
+  <li *ngSwitchCase="'Vijay'">Hello Vijay</li>
+  <li *ngSwitchDefault>Name not in List <button (click)='AddToList'>Add to List</button></li>
+</ul>

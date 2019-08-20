@@ -1,0 +1,18 @@
+<h1>
+  {{title}}
+</h1>
+<h3>Accessing Service Properties in HTML</h3>
+<ul>
+<li *ngFor="let notification of fb.notifications">{{notification.text}}</li>
+</ul>
+<hr>
+<h3>Accessing Input and Output bindings of Simple-Form component</h3>
+<div>
+<app-simple-form *ngFor="let fbMsg of fb.notifications"
+                 [getBinding]="fbMsg.text"
+                 (update)="onUpdate(fbMsg.id, $event.text)"></app-simple-form>
+<hr>
+
+</div>
+<hr>
+

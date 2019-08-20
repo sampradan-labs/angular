@@ -1,0 +1,10 @@
+
+<!-- Without using *ngFor -->
+{{players}}
+
+<!-- foreach(var player in players) -->
+<ul *ngFor='let player of players; index as i'>
+  <li>{{player.name}}-{{player.id}}---- {{i}}</li>
+</ul>
+
+{{Login()}}

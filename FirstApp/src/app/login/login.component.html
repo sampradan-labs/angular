@@ -1,0 +1,30 @@
+
+Enter username: <input #userName 
+          type='text' 
+            [value]='name'/>
+
+<span>{{name}}</span>
+
+<br>
+Enter password:<input #password 
+        type='password' [value]='pwd'/>
+<span>{{pwd}}</span>
+
+
+<button class='btn' 
+      (click) = 'doLogin(userName.value, password.value, santaDiv)' >
+  Login</button>
+  <div>
+    
+    This is the status div.<br/>
+    {{status}}
+
+    <img #santaDiv src='/assets/santa.jpg' style='display:none'/>
+  </div>
+
+  <h1>Testing with NGMODEL</h1>
+  <input type='text' [(ngModel)]='name'/>
+  <input type='text' [(ngModel)]='pwd'/>
+  <button (click)='doLogin(null,null,santaDiv)'>
+    Login with NG Model Binding</button>
+
